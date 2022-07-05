@@ -1,0 +1,30 @@
+.logo{
+    position: relative;
+    top:4px;
+    margin-right:140px;
+    left: 50px;
+    width: 60px;
+}
+nav{
+   
+    z-index: 9999;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+    z-index: 99999!important;
+}
+.nav-link{
+    color:rgb(25, 66, 105)!important;
+}
+.nav-link:hover{
+    color:rgb(121, 162, 175)!important;
+}
+
+
+.header_rentacar{
+    position: sticky;
+    top: 0!important; 
+    background:#cad6da!important;
+    z-index: 99999;
+}

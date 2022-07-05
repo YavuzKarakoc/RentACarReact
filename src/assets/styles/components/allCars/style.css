@@ -1,0 +1,52 @@
+.all_car__list{
+    display: grid;
+    grid-template-columns: 430px 430px ;
+    column-gap: 150px;
+    row-gap: 50px;
+    position: relative;
+    left: 200px;
+    padding:30px;
+    
+}
+.all_car-card{
+    border:2px solid rgb(19, 108, 138);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.all_car-card:hover{
+    transform: scale(1);
+   
+    box-shadow: 5px 5px 10px rgb(0, 0, 0,0.5);
+}
+.car__slider{
+    width:400px;
+    transition: transform .2s;
+}
+.car__card-img-top{
+    width: inherit;
+    height: inherit;
+   
+}
+.car__slider:hover{
+    transform: scale(1.05);
+}
+.allCar_card__features{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.show__detail_button{
+    border:none;
+    padding:10px;
+    background-color: rgb(19, 108, 138);
+    border-radius: 10px;
+    color:white;
+    float:right;
+
+}
+.car__price{
+    color:rgb(130, 65, 21);
+    font-weight: bold;
+}
